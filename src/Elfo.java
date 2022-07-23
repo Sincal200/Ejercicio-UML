@@ -1,11 +1,17 @@
-public class Elfo extends Personaje implements Villano{
+public class Elfo extends Personaje implements Heroe{
+
     @Override
     public void atacar() {
 
     }
 
     @Override
-    public void destruir() {
+    public void defender() {
+
+    }
+
+    @Override
+    public void recibirAtaque() {
 
     }
 }
