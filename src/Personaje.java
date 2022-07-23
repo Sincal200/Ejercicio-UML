@@ -7,8 +7,18 @@ public abstract class Personaje {
     private int vida;
 
     public void desplazarse (){
-
+        System.out.println("");
     }
+
+    public int mostrarVida(){
+
+        return 0;
+    }
+
+    public void mostrarPoder(){
+        System.out.println("");
+    }
+
     protected Personaje(){
 
     }
